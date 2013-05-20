@@ -29,6 +29,6 @@
 # Wait, this is awesome why? #
 
 * * Jenkins job completely abstracted from project and target platform
-* * Add new projects with zero jenkins-side maintenance (no project-logic in the jobs)
+* * Add new projects with zero jenkins-side maintenance (no project-specific logic in the job)
 * * Scale by just adding more builders as labeled Jenkins slaves, no reconfiguration
 * * Commit does not need to be checked into upstream (do your worst)
