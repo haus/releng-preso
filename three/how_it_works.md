@@ -1,7 +1,5 @@
-!SLIDE bullets incremental
-## How it works, or ##
-
 !SLIDE bullets incremental small
+## How it works, or
 # I want to build a package!
 (we've got some work to do)
 
