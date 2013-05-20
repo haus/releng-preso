@@ -7,6 +7,7 @@
 * * Slave clones git-bundle upload and git clones packaging
 * * Execute build task
 * * Send artifacts to distribution server
+* Jenkins grabs a beer
 
 !SLIDE bullets incremental
 ## Previously, On the client side.. ##
