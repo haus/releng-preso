@@ -1,8 +1,10 @@
 !SLIDE bullets incremental
 ## How it works, or ##
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental small
 # I want to build a package!
+(we've got some work to do)
+
 * ....git clone packaging repo ...done!
 * ....create git-bundle of local repo...done!
 * ....write build parameters file...done!

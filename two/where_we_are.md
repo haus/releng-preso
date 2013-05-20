@@ -11,8 +11,10 @@
 # Uniform Tasks #
 
 * Run `rake package:tar` for a tar.
-* Run `rake package:deb` for a deb.
-* Run `rake package:rpm` for an rpm.
+* Run `rake package:deb` for a deb.  
+(wraps cowbuilder and pbuilder)
+* Run `rake package:rpm` for an rpm.  
+(wraps mock and rpmbuild)
 
 !SLIDE bullets incremental
 # One Workflow #
@@ -33,4 +35,4 @@
 
 !SLIDE bullets incremental
 # Did that sound familiar? #
-* (I hope so)
+* (it should)

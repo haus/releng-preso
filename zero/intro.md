@@ -12,11 +12,13 @@
 * Windows (MSI)
 * Solaris (IPS)
 
-!SLIDE incremental
+!SLIDE bullets incremental
 
 ## There are only 2 of us (but we're hiring!) ##
 ## We ship multiple times a week ##
 # There is _no way_ we can do all of that manually #
+
+* (but we did)
 
 !SLIDE bullets incremental
 # Don't worry, #
