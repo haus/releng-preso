@@ -1,20 +1,19 @@
 !SLIDE bullets incremental
-# How It Works #
 
-
-* On Jenkins, one job to build them all!
+## On Jenkins, one job to build them all! ##
 * * NodeLabelParameter plugin picks the right builder for the job
-* * Slave clones git-bundle upload and git clones packaging
-* * Execute build task
+* * Slave clones project and packaging repo
+* Release the Hounds!
+* (I mean...Execute the build!)
 * * Send artifacts to distribution server
-* Jenkins grabs a beer
+* * Jenkins wipes sweat from his brow and grabs us a beer
 
 !SLIDE bullets incremental
-## Previously, On the client side.. ##
+## Previously, On the client side... ##
 
 * * Clone packaging repo (`rake package:bootstrap`) and package (`rake package:deb`)
-* * Trigger build, sending git-bundle, build data file, sha, build type
-* Note jenkins job url and go get a beer
+* * Packaging sends your project and build data to Jenkins
+* * After a hard day's work, note the Jenkins job url and go get a beer
 
 !SLIDE bullets incremental
 # Wait, this is awesome why? #
