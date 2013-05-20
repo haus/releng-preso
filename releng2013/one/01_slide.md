@@ -9,7 +9,7 @@
 !SLIDE bullets incremental
 # Disparate Tasks #
 
-* Is it `rake puppetpackage`?
+* Is it `rake puppetpackages`?
 * Or `rake package`?
 * Or `rake package:tar`?
 * Or `rake pkg:tar`?
@@ -20,7 +20,7 @@
 * Did the tar task already generate the specfile?
 * Did it do it right? Do I need to hand edit it?
 * Does the packaging live in a different repo entirely (it did)?
-* Does the packaging live in $PROJ/ext? or in $PROJ/conf
+* Does the packaging live in $PROJ/ext? or in $PROJ/conf ?
 
 !SLIDE bullets incremental
 ## Occasionally devs like using real packages ##
