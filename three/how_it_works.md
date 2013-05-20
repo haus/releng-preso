@@ -15,8 +15,7 @@
 * (two rake comands)
 * setup (`rake package:bootstrap`)
 * and package (`rake pl:jenkins:uber_build`)
-* After a hard day's work, note the Jenkins job url and go get a beer
-* easy right?
+* After a hard day's work, note the Jenkins job url and go get a beer. Easy right?
 
 !SLIDE bullets incremental
 ## Meanwhile, on Jenkins... ##
