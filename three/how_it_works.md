@@ -5,26 +5,29 @@
 # I want to build a package!
 (we've got some work to do)
 
-* ....git clone packaging repo ...done!
-* ....create git-bundle of local repo...done!
-* ....write build parameters file...done!
-* ....determine build type (deb? rpm?)...done!
-* ....determine project (is it puppet?)...done!
-* ....send it all to jenkins...done!
+##....git clone packaging repo...  
+##....create git-bundle of local repo...  
+##....write build parameters file...  
+##....determine build type (deb? rpm?)...  
+##....determine project (is it puppet?)...  
+##....send it all to jenkins...done!  
 
-!SLIDE bullets incremental
+!SLIDE bullets incremental small
 # But how did I do that??
-* (two rake comands)
-* setup (`rake package:bootstrap`)
-* and package (`rake pl:jenkins:uber_build`)
-* After a hard day's work, note the Jenkins job url and go get a beer. Easy right?
 
-!SLIDE bullets incremental
-## Meanwhile, on Jenkins... ##
-* * NodeLabelParameter plugin picks the right builder slave for the job
-* * Slave clones project bundle and packaging repo
-* * Slave executes the build using build data params file (`rake pl:build_from_params`)
-* * Artifacts are off to distribution server!
+## (two rake comands)  
+## setup (`rake package:bootstrap`)  
+## and package (`rake pl:jenkins:uber_build`)  
+
+After a hard day's work, note the Jenkins job url and go get a beer. Easy right?
+
+!SLIDE incremental small
+# Meanwhile, on Jenkins... #
+
+* NodeLabelParameter plugin picks the right builder slave for the job
+* Slave clones project bundle and packaging repo
+* Slave executes the build using build data params file (`rake pl:build_from_params`)
+* Artifacts are off to distribution server!
 
 !SLIDE center
 ![Alt workflow](./repo3.jpeg)
