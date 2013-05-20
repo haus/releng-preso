@@ -1,6 +1,7 @@
 !SLIDE
 # /usr/bin/rake all\_the\_things #
 ## Packaging @ Puppet Labs ##
+### Moses Mendoza and Matthaus Owens ###
 
 !SLIDE bullets incremental
 # We roll native packages for #
@@ -22,6 +23,6 @@
 # it's not all manual anymore #
 * Where we were (it was all manual)
 * Where we are now (it's not anymore)
-* Where we're going (moar automation)
 * How it works
 * What we learned along the way
+* Where we're going (moar automation)
