@@ -26,6 +26,9 @@
 * * Slave executes the build using build data params file (`rake pl:build_from_params`)
 * * Artifacts are off to distribution server!
 
+!SLIDE center
+![Alt workflow](./repo3.jpeg)
+
 !SLIDE bullets incremental
 # Wait, this is awesome why? #
 
