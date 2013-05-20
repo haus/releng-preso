@@ -29,7 +29,7 @@
 # That's awesome! But how do they get them? #
 * Checkout the tag to ship
 * Run `rake pl:jenkins:uber_build` (should automatically have happened via jenkins)
-* Run `rake pl:jenkins:retrive`
+* Run `rake pl:jenkins:retrieve`
 
 !SLIDE bullets incremental
 # Did that sound familiar? #

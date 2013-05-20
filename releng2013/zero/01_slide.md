@@ -11,12 +11,17 @@
 * Windows (MSI)
 * Solaris (IPS)
 
+!SLIDE incremental
+
+## There are only 2 of us (but we're hiring!) ##
+## We ship multiple times a week ##
+# There is _no way_ we can do all of that manually #
+
 !SLIDE bullets incremental
-
-## There are only 2 of us (but we're hiring) ##
-# There is no way we can do all of that manually #
-
-* Where We Were (but we did)
-* Where We Are Now (we don't anymore)
-* Where We're Going (we want to do less work)
+# Don't worry, #
+# it's not all manual anymore #
+* Where we were (it was all manual)
+* Where we are now (it's not anymore)
+* Where we're going (moar automation)
+* How it works
 * What we learned along the way

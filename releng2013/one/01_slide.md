@@ -25,8 +25,8 @@
 !SLIDE bullets incremental
 ## Occasionally devs like using real packages ##
 * That's awesome! But how do they get them?
-* * From us if they don't know how
-* * That must be a lot of manual work
+* From us
+* That must be a lot of manual work
 * What if they know how to build them?
-* * That must be a lot of manual work
+* That must be a lot of manual work
 
