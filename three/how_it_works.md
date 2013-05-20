@@ -14,7 +14,7 @@
 # But how did I do that??
 * (two rake comands)
 * setup (`rake package:bootstrap`)
-* and package (`rake pl:jenkins:deb`)
+* and package (`rake pl:jenkins:uber_build`)
 * After a hard day's work, note the Jenkins job url and go get a beer
 * easy right?
 
