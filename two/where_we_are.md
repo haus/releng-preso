@@ -27,7 +27,7 @@
 !SLIDE bullets incremental
 ## Occasionally devs like using real packages ##
 # That's awesome! But how do they get them? #
-* Checkout the tag to ship
+* Checkout the commit they want
 * Run `rake pl:jenkins:uber_build` (should automatically have happened via jenkins)
 * Run `rake pl:jenkins:retrieve`
 
