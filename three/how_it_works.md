@@ -21,18 +21,18 @@
 
 After a hard day's work, note the Jenkins job url and go get a beer. Easy right?
 
-!SLIDE incremental small
+!SLIDE bullets
 # Meanwhile, on Jenkins... #
 
-* NodeLabelParameter plugin picks the right builder slave for the job
-* Slave clones project bundle and packaging repo
-* Slave executes the build using build data params file (`rake pl:build_from_params`)
-* Artifacts are off to distribution server!
+* * NodeLabelParameter plugin picks the right builder slave for the job
+* * Slave clones project bundle and packaging repo
+* * Slave executes the build using build data params file (`rake pl:build_from_params`)
+* * Artifacts are off to distribution server!
 
 !SLIDE center
 ![Alt workflow](./repo3.jpeg)
 
-!SLIDE bullets incremental
+!SLIDE bullets
 # Wait, this is awesome why? #
 
 * * Jenkins job completely abstracted from project and target platform
